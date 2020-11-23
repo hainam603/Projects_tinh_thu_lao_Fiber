@@ -1,0 +1,25 @@
+
+.usermanagement .usermanagementform {
+    width: 710px;
+    margin: 0 auto;
+    text-align: center;
+}
+.usermanagement .usermanagementform .el-pagination{
+    margin: 15px 0;
+    text-align: center;
+}
+.usermanagement .usermanagementform h3{
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 25px 0;
+}
+.usermanagement .userupdateform{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 1000;
+    background-color: white;
+}

@@ -1,0 +1,141 @@
+{
+    "ReRoutes": [
+        {
+            "DownstreamPathTemplate": "/api/auth",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 9001
+                }
+            ],
+            "UpstreamPathTemplate": "/auth",
+            "UpstreamHttpMethod": [ "Get", "POST" ]
+        },
+        {
+            "DownstreamPathTemplate": "/api/auth/{id}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 9001
+                }
+            ],
+            "UpstreamPathTemplate": "/auth/{id}",
+            "UpstreamHttpMethod": [ "Get", "POST" ]
+        },
+        {
+            "DownstreamPathTemplate": "/api/user",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 9001
+                }
+            ],
+            "UpstreamPathTemplate": "/user",
+            "UpstreamHttpMethod": [ "Get", "POST", "PUT", "DELETE" ]
+        },
+        {
+            "DownstreamPathTemplate": "/api/user/{id}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 9001
+                }
+            ],
+            "UpstreamPathTemplate": "/user/{id}",
+            "UpstreamHttpMethod": [ "Get", "POST", "PUT", "DELETE" ]
+        },
+        {
+            "DownstreamPathTemplate": "/api/fiber",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 9002
+                }
+            ],
+            "UpstreamPathTemplate": "/fiber",
+            "UpstreamHttpMethod": [ "Get", "POST" ],
+            //"QoSOptions": {
+            //    "ExceptionsAllowedBeforeBreaking": 2,
+            //    "DurationOfBreak": 5000,
+            //    "TimeoutValue": 2000
+            //},
+            //"RateLimitOptions": {
+            //    "ClientWhitelist": [],
+            //    "EnableRateLimiting": true,
+            //    "Period": "1s",
+            //    "PeriodTimespan": 1,
+            //    "Limit": 10
+            //},
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "TestKey",
+                "AllowedScopes": []
+            }
+        },
+        {
+            "DownstreamPathTemplate": "/api/fiber/{id}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 9002
+                }
+            ],
+            "UpstreamPathTemplate": "/fiber/{id}",
+            "UpstreamHttpMethod": [ "Get", "POST" ],
+            //"QoSOptions": {
+            //    "ExceptionsAllowedBeforeBreaking": 2,
+            //    "DurationOfBreak": 5000,
+            //    "TimeoutValue": 2000
+            //},
+            //"RateLimitOptions": {
+            //    "ClientWhitelist": [],
+            //    "EnableRateLimiting": true,
+            //    "Period": "1s",
+            //    "PeriodTimespan": 1,
+            //    "Limit": 10
+            //},
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "TestKey",
+                "AllowedScopes": []
+            }
+        },
+        {
+            "DownstreamPathTemplate": "/img/test.txt",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 9002
+                }
+            ],
+            "UpstreamPathTemplate": "/img/test.txt",
+            "UpstreamHttpMethod": [],
+            //"QoSOptions": {
+            //    "ExceptionsAllowedBeforeBreaking": 2,
+            //    "DurationOfBreak": 5000,
+            //    "TimeoutValue": 2000
+            //},
+            //"RateLimitOptions": {
+            //    "ClientWhitelist": [],
+            //    "EnableRateLimiting": true,
+            //    "Period": "1s",
+            //    "PeriodTimespan": 1,
+            //    "Limit": 10
+            //},
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "TestKey",
+                "AllowedScopes": []
+            }
+        }
+
+    ],
+    "GlobalConfiguration": {
+        "RequestIdKey": "OcRequestId",
+        "AdministrationPath": "/administration"
+    }
+}

@@ -1,0 +1,52 @@
+.profile{
+    width: 500px;
+    font-size: 15px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+}
+.profile h1{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: blue;
+    margin-bottom: 20px;
+}
+.textfield{
+    margin: 20px;
+    width: 100%;
+}
+.textfield input{
+    border: none;
+    background: none;
+    padding: 7px;
+}
+.textfield button{
+    width: 120px;
+    border: none;
+    background: #007FEC;
+    text-align: center;
+    padding: 6px 10px;
+    color:white;
+    margin-top: 20px;
+}
+.textfield span{
+    display: inline-block;
+    width: 120px;
+    text-align: left;
+    
+}
+.radio{
+    display: inline-block;
+    width: 185px;
+}
+.radio label{
+    margin-right: 15px;
+}
+.validate{
+    display: inline-block;
+    color: red;
+}

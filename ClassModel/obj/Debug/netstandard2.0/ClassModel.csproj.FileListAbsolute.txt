@@ -1,0 +1,9 @@
+C:\Users\HaiNam\Desktop\projects\Fiber\ClassModel\obj\Debug\netstandard2.0\ClassModel.csprojAssemblyReference.cache
+C:\Users\HaiNam\Desktop\projects\Fiber\ClassModel\obj\Debug\netstandard2.0\ClassModel.AssemblyInfoInputs.cache
+C:\Users\HaiNam\Desktop\projects\Fiber\ClassModel\obj\Debug\netstandard2.0\ClassModel.AssemblyInfo.cs
+C:\Users\HaiNam\Desktop\projects\Fiber\ClassModel\bin\Debug\netstandard2.0\ClassModel.deps.json
+C:\Users\HaiNam\Desktop\projects\Fiber\ClassModel\bin\Debug\netstandard2.0\ClassModel.dll
+C:\Users\HaiNam\Desktop\projects\Fiber\ClassModel\bin\Debug\netstandard2.0\ClassModel.pdb
+C:\Users\HaiNam\Desktop\projects\Fiber\ClassModel\obj\Debug\netstandard2.0\ClassModel.dll
+C:\Users\HaiNam\Desktop\projects\Fiber\ClassModel\obj\Debug\netstandard2.0\ClassModel.pdb
+C:\Users\HaiNam\Desktop\projects\Fiber\ClassModel\obj\Debug\netstandard2.0\ClassModel.csproj.CoreCompileInputs.cache

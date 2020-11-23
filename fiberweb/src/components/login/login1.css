@@ -1,0 +1,14 @@
+.demo-ruleForm{
+    width: 450px;
+    margin: 100px auto;
+    border: 1px solid #409EFF;
+    border-radius: 5px;
+    padding: 25px 15px;
+}
+.demo-ruleForm .title{
+    text-align: center;
+}
+.demo-ruleForm .title img{
+    width: 95px;
+    margin-bottom: 20px;
+}

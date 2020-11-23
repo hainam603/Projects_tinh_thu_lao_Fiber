@@ -1,0 +1,25 @@
+.user .demo-ruleForm{
+    width: 700px;
+    margin: 0px auto;
+    padding: 10px;
+} 
+.user .el-input {
+    width: 300px !important;
+}
+.user .title{
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.user .showInfoUser{
+    width: 150px;
+    text-align: left;
+    display: inline-block;
+    color: #C0C4D6;
+}
+.el-form-item__content{
+    /* margin-left: 0 !important; */
+}

@@ -1,0 +1,16 @@
+
+#app > section > header > div > div:nth-child(2){
+    text-align: right;
+}
+#app > section > header > div > div:nth-child(1){
+    color: blue;
+    font-size: large;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#app > section > footer > div > div{
+    text-align: center;
+}
+.export-excel{
+    display: inline-block;
+}
